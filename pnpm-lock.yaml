@@ -11,6 +11,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  web-csv-toolbox:
+    specifier: ^0.7.3
+    version: 0.7.3
 
 devDependencies:
   '@biomejs/biome':
@@ -1693,6 +1696,11 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
+
+  /web-csv-toolbox@0.7.3:
+    resolution: {integrity: sha512-YBB3V1QZTW539odfbF8y07gwhkSc9hITIudLvKpktTJ2ZmqYRLQjItXOYZena9sORD8FXGbp+gJYe4gXk6d/Yw==}
+    engines: {node: '>=18.0.0'}
+    dev: false
 
   /which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
